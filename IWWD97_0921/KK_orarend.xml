@@ -1,18 +1,4 @@
 <?xml version="1.0" encoding="utf—8"?>
-?xml version="1.0" encoding="utf-8"?>
-
-
-<orarend>
-    <ora id="1" tipus="Gyakorlat"/>
-		<targy>
-		</targy>
-		<idopont>
-			<nap>
-			</nap>
-			<tol>
-			</tol>
-			<ig>
-			</ig>
 
 
 	<ora id="1" tipus="elmélet+gyakorlat" >	
@@ -47,14 +33,9 @@
 			<tol tol="16:00"/>
 			<ig ig="18:00"/>
 		</idopont>
-		<helyszin>
-		</helyszin>
-		<oktato>
-		</oktato>
-		<szak>
-		</szak>
+		
     </ora>
-</orarend>    
+<ora>    
 		<helyszin helyszin="A1 11"/>
 		<oktato nev="Dorkó Dóra"/>
 		<szak szak="Mérnökinformatika"/>
