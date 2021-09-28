@@ -1,0 +1,46 @@
+body {
+    color: white;
+}
+.img-link {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    bottom: .3rem;
+    font-size: 1.3rem;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    width: 100%;
+}
+iframe {
+    width: 100%;
+    height: 40rem;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+.button {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    font-size: 1.3em;
+}
+.content {
+    margin-top: 2.6rem;
+}
+
+#database {
+    grid-column: 1;
+}
+#internet {
+    grid-column: 2;
+}
+#presentation {
+    grid-column: 3;
+}
