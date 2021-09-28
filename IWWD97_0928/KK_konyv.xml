@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<könyv id="1">
+	<cim cim="Jézus Konvergencia"/>
+	<kiadasi_ev ev="2021"/>
+	<kiado kiado="General Books INC."/>
+	<szerzok>
+		<szerzo1 nev="Nagy Máté"/>
+	</szerzok>
+	<absztrakt/>
+</könyv>
