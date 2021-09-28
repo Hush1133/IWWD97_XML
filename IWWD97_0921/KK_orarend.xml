@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf—8"?>
+?xml version="1.0" encoding="utf-8"?>
+
+
+<orarend>
+    <ora id="1" tipus="Gyakorlat"/>
+		<targy>
+		</targy>
+		<idopont>
+			<nap>
+			</nap>
+			<tol>
+			</tol>
+			<ig>
+			</ig>
+
+
+	<ora id="1" tipus="elmélet+gyakorlat" >	
+		<targy nev="Webalkalmazás fejlesztés"/>
+		<idopont >
+			<nap nap="Kedd"/>
+			<tol tol="10:00"/>
+			<ig ig="12:00"/>
+		</idopont>
+		<helyszin helyszin="INF 101"/>
+		<oktato nev="Krizsán Zoltán"/>
+		<szak szak="Mérnökinformatika"/>
+
+	</ora>	
+
+	<ora id="2" tipus="elmélet+gyakorlat" >	
+		<targy nev="Adatkezelés XML-ben"/>
+		<idopont >
+			<nap nap="Kedd"/>
+			<tol tol="12:00"/>
+			<ig ig="16:00"/>
+		</idopont>
+		<helyszin helyszin="I A2 fsz., INF 103"/>
+		<oktato nev="Bednarik László"/>
+		<szak szak="Mérnökinformatika"/>
+	</ora>		
+
+	<ora id="3" tipus="elmélet" >	
+		<targy nev="Angol nyelvizsga felkészítő"/>
+		<idopont >
+			<nap nap="Kedd"/>
+			<tol tol="16:00"/>
+			<ig ig="18:00"/>
+		</idopont>
+		<helyszin>
+		</helyszin>
+		<oktato>
+		</oktato>
+		<szak>
+		</szak>
+    </ora>
+</orarend>    
+		<helyszin helyszin="A1 11"/>
+		<oktato nev="Dorkó Dóra"/>
+		<szak szak="Mérnökinformatika"/>
+	</ora>		
+
+	<ora id="3" tipus="gyakorlat" >	
+		<targy nev="Mestersége inteligáncia"/>
+		<idopont >
+			<nap nap="Kedd"/>
+			<tol tol="18:00"/>
+			<ig ig="19:00"/>
+		</idopont>
+		<helyszin helyszin="INF 15"/>
+		<oktato nev="Dudás László"/>
+		<szak szak="Mérnökinformatika"/>
+
+	</ora>
+
+
+
+</orarend>
