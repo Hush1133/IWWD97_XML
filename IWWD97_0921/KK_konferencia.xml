@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf—8"?>
+
+<konferencia>
+    <cim>        
+    </cim>
+    <eloado nev="Eloado Elemer" adoszam="0123456789" lakcim="1111 Varos utca 2"/>
+    <datum>
+    </datum>
+    <helyszin>
+    </helyszin>
+    <hallgatók>
+     	<hallgató nev="Kiss Károly" lakcim="1111 Varos utca 1"/>
+    </hallgatók>>
+</konferencia>
