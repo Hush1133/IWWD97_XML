@@ -1,59 +1,82 @@
-<?xml version="1.0" encoding="utf—8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<napok>
+	<hétfő>
+		<ora id="GEIAL333-B" típus="ELmélet"/>
+		<targy>Web-es alkalmazások</targy>
+		<idopont nap="hétfő" tol="10" ig="12"/>
+		<helyszin>info ep. 101.terem</helyszin>
+		<oktato>Dr. Krizsán Zoltán</oktato>
+		<szak>Informatika</szak>
+		<ora id="GEIAL331-B" típus="ELmélet"/>
+		<targy>Web technológiák 1</targy>
+		<idopont nap="hétfő" tol="12" ig="14"/>
+		<helyszin>305.terem</helyszin>
+		<oktato>Agárdi Anita</oktato>
+		<szak>Informatika</szak>
+		<ora id="GEIAK130-B" típus="ELmélet"/>
+		<targy>Mesterséges intelligencia alapok</targy>
+		<idopont nap="hétfő" tol="14" ig="17"/>
+		<helyszin>XXXII.előadó</helyszin>
+		<oktato>Dr. Dudás László</oktato>
+		<szak>Informatika</szak>
+		<ora id="GEIAL331-B" típus="Gyakorlat"/>
+		<targy>Web technológiák 1</targy>
+		<idopont nap="hétfő" tol="17" ig="19"/>
+		<helyszin>info ep. 101.terem</helyszin>
+		<oktato>Agárdi Anita</oktato>
+		<szak>Informatika</szak>
+	</hétfő>
+	<kedd>
+		<ora id="GEIAL333-B" típus="Gyakorlat"/>
+		<targy>Web-es alkalmazások</targy>
+		<idopont nap="hétfő" tol="10" ig="12"/>
+		<helyszin>info ep. 101.terem</helyszin>
+		<oktato>Dr. Krizsán Zoltán</oktato>
+		<szak>Informatika</szak>
+		<ora id="GEIAL332-B" típus="ELmélet"/>
+		<targy>Adatkezelés XML-ben</targy>
+		<idopont nap="hétfő" tol="12" ig="14"/>
+		<helyszin>I.előadó</helyszin>
+		<oktato>Bednarik László</oktato>
+		<szak>Informatika</szak>
+		<ora id="GEIAL332-B" típus="Gyakorlat"/>
+		<targy>Adatkezelés XML-ben</targy>
+		<idopont nap="hétfő" tol="14" ig="16"/>
+		<helyszin>info ep. 103.terem</helyszin>
+		<oktato>Bednarik László</oktato>
+		<szak>Informatika</szak>
+		<ora id="GEIAK130-B" típus="Gyakorlat"/>
+		<targy>Mesterséges intelligencia alapok</targy>
+		<idopont nap="hétfő" tol="18" ig="19"/>
+		<helyszin>info ep. 15.terem</helyszin>
+		<oktato>Dr. Dudás László</oktato>
+		<szak>Informatika</szak>
+	</kedd>
+	<szerda>
+		<ora id="GEIAL31H-B" típus="Elmélet"/>
+		<targy>Szoftvertesztelés</targy>
+		<idopont nap="hétfő" tol="8" ig="10"/>
+		<helyszin>info ep. 103.terem</helyszin>
+		<oktato>Tompa Tamás</oktato>
+		<szak>Informatika</szak>
+		<ora id="GEIAL31H-B" típus="Gyakorlat"/>
+		<targy>Szoftvertesztelés</targy>
+		<idopont nap="hétfő" tol="10" ig="12"/>
+		<helyszin>info ep. 103.terem</helyszin>
+		<oktato>Tompa Tamás</oktato>
+		<szak>Informatika</szak>
+		<ora id="GEIAK120-B" típus="Elmélet"/>
+		<targy>Integrált vállalati rendszerek</targy>
+		<idopont nap="hétfő" tol="14" ig="16"/>
+		<helyszin>14.terem</helyszin>
+		<oktato>Dr. Dadvandipour Samad</oktato>
+		<szak>Informatika</szak>
+		<ora id="GEIAK120-B" típus="Gyakorlat"/>
+		<targy>Integrált vállalati rendszerek</targy>
+		<idopont nap="hétfő" tol="16" ig="18"/>
+		<helyszin>info ep. 15.terem</helyszin>
+		<oktato>Dr. Kulcsárné Dr. Forrai Mónika</oktato>
+		<szak>Informatika</szak>
+	</szerda>
 
-
-	<ora id="1" tipus="elmélet+gyakorlat" >	
-		<targy nev="Webalkalmazás fejlesztés"/>
-		<idopont >
-			<nap nap="Kedd"/>
-			<tol tol="10:00"/>
-			<ig ig="12:00"/>
-		</idopont>
-		<helyszin helyszin="INF 101"/>
-		<oktato nev="Krizsán Zoltán"/>
-		<szak szak="Mérnökinformatika"/>
-
-	</ora>	
-
-	<ora id="2" tipus="elmélet+gyakorlat" >	
-		<targy nev="Adatkezelés XML-ben"/>
-		<idopont >
-			<nap nap="Kedd"/>
-			<tol tol="12:00"/>
-			<ig ig="16:00"/>
-		</idopont>
-		<helyszin helyszin="I A2 fsz., INF 103"/>
-		<oktato nev="Bednarik László"/>
-		<szak szak="Mérnökinformatika"/>
-	</ora>		
-
-	<ora id="3" tipus="elmélet" >	
-		<targy nev="Angol nyelvizsga felkészítő"/>
-		<idopont >
-			<nap nap="Kedd"/>
-			<tol tol="16:00"/>
-			<ig ig="18:00"/>
-		</idopont>
-		
-    </ora>
-<ora>    
-		<helyszin helyszin="A1 11"/>
-		<oktato nev="Dorkó Dóra"/>
-		<szak szak="Mérnökinformatika"/>
-	</ora>		
-
-	<ora id="3" tipus="gyakorlat" >	
-		<targy nev="Mestersége inteligáncia"/>
-		<idopont >
-			<nap nap="Kedd"/>
-			<tol tol="18:00"/>
-			<ig ig="19:00"/>
-		</idopont>
-		<helyszin helyszin="INF 15"/>
-		<oktato nev="Dudás László"/>
-		<szak szak="Mérnökinformatika"/>
-
-	</ora>
-
-
-
-</orarend>
+</napok>

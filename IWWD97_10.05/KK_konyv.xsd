@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="konyvek" type="konyvekType"/>
+    <xs:complexType name="konyvType">
+        <xs:sequence>
+            <xs:element name="cím">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Jézus Konvergencia"/>
+                        <xs:enumeration value="BMW ISTA+ ECU configuration methods"/>
+                        <xs:enumeration value="Wolrd Class Boats"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="xs:string" name="kiadásiev"/>
+            <xs:element name="kiado">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Oy vey publising inc."/>
+                        <xs:enumeration value="KDY"/>
+                        <xs:enumeration value="Centepide publishing"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="szerzo" maxOccurs="unbounded" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Nagy Máté"/>
+                        <xs:enumeration value="Kádár Konrád"/>
+                        <xs:enumeration value="Ralph Peter"/>
+                        <xs:enumeration value="Jay Adams"/>
+                        <xs:enumeration value="Nuje Kft."/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="abstract">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Életviteli könyv"/>
+                        <xs:enumeration value="Vezérlő progarmozás diagnosztikai könyv"/>
+                        <xs:enumeration value="Boat magazine"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="konyvekType">
+        <xs:sequence>
+            <xs:element type="konyvType" name="konyv" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

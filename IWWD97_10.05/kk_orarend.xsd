@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="napok" type="napokType"/>
+    <xs:complexType name="oraType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="id" use="optional"/>
+                <xs:attribute type="xs:string" name="típus" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="idopontType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="nap" use="optional"/>
+                <xs:attribute type="xs:string" name="tol" use="optional"/>
+                <xs:attribute type="xs:string" name="ig" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="hétfőType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="oraType" name="ora"/>
+            <xs:element type="xs:string" name="targy"/>
+            <xs:element type="idopontType" name="idopont"/>
+            <xs:element type="xs:string" name="helyszin"/>
+            <xs:element type="xs:string" name="oktato"/>
+            <xs:element name="szak">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id" use="optional"/>
+                            <xs:attribute type="xs:string" name="típus" use="optional"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="keddType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="oraType" name="ora"/>
+            <xs:element type="xs:string" name="targy"/>
+            <xs:element type="idopontType" name="idopont"/>
+            <xs:element type="xs:string" name="helyszin"/>
+            <xs:element type="xs:string" name="oktato"/>
+            <xs:element name="szak">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id" use="optional"/>
+                            <xs:attribute type="xs:string" name="típus" use="optional"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="szerdaType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="oraType" name="ora"/>
+            <xs:element type="xs:string" name="targy"/>
+            <xs:element type="idopontType" name="idopont"/>
+            <xs:element type="xs:string" name="helyszin"/>
+            <xs:element type="xs:string" name="oktato"/>
+            <xs:element name="szak">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id" use="optional"/>
+                            <xs:attribute type="xs:string" name="típus" use="optional"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="napokType">
+        <xs:sequence>
+            <xs:element type="hétfőType" name="hétfő"/>
+            <xs:element type="keddType" name="kedd"/>
+            <xs:element type="szerdaType" name="szerda"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

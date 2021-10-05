@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!ELEMENT books (konyv*)>
-<!ELEMENT book (title, published, publisher, author+, absztrakt?)>
-<!ATTLIST book id ID #REQUIRED>
-<!ELEMENT title (#PCDATA)>
-<!ELEMENT published (#PCDATA)>
-<!ELEMENT publisher (#PCDATA)>
-<!ELEMENT author (#PCDATA)>
-<!ELEMENT abstract (#PCDATA)>
+        <!ELEMENT konyvek (konyv)*>
+        <!ELEMENT konyv (cím|kiadásiev|kiado|szerzo|abstract)*>
+        <!ATTLIST konyv
+                id CDATA #REQUIRED>
+        <!ELEMENT cím (#PCDATA)>
+        <!ELEMENT kiadásiev (#PCDATA)>
+        <!ELEMENT kiado (#PCDATA)>
+        <!ELEMENT szerzo (#PCDATA)>
+        <!ELEMENT abstract (#PCDATA)>

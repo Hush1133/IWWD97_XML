@@ -1,11 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<könyv id="1">
-	<cim cim="Jézus Konvergencia"/>
-	<kiadasi_ev ev="2021"/>
-	<kiado kiado="General Books INC."/>
-	<szerzok>
-		<szerzo1 nev="Nagy Máté"/>
-	</szerzok>
-	<absztrakt/>
-</könyv>
+<!DOCTYPE konyvek SYSTEM "kk_konyv.dtd">
+<konyvek>
+	<konyv id="asdfg">
+		<cím>Jézus Konvergencia</cím>
+		<kiadásiev>2021</kiadásiev>
+		<kiado>Oy vey publising inc.</kiado>
+		<szerzo>Nagy Máté</szerzo>
+		<abstract>Életviteli könyv</abstract>
+	</konyv>
+	<konyv id="yxcvb">
+		<cím>BMW ISTA+ ECU configuration methods</cím>
+		<kiadásiev>2021</kiadásiev>
+		<kiado>KDY</kiado>
+		<szerzo>Kádár Konrád</szerzo>
+		<szerzo>Ralph Peter</szerzo>
+		<szerzo>Jay Adams</szerzo>
+		<abstract>Vezérlő progarmozás diagnosztikai könyv</abstract>
+	</konyv>
+	<konyv id="qwert">
+		<cím>Wolrd Class Boats</cím>
+		<kiadásiev>2021</kiadásiev>
+		<kiado>Centepide publishing</kiado>
+		<szerzo>Nuje Kft.</szerzo>
+		<abstract>Boat magazine</abstract>
+	</konyv>
+</konyvek>
