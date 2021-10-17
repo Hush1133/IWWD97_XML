@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KK_nevjegykartya.xsd">
+    <nevjegykartya>
+        <nev>Kádár Konrád</nev>
+        <ceg>
+            <nev>ENERGY SOLVER CENTRUM KFT.</nev>
+            <cim>
+                <iranyitoszam>1002</iranyitoszam>
+                <varos>Budapest</varos>
+                <utca>Lehel utca</utca>
+                <hazszam>48</hazszam>
+            </cim>
+            <telefonszam>06702264567</telefonszam>
+            <weblap>https://www.ceginformacio.hu/cr9316332083_EN</weblap>
+        </ceg>
+        <beosztas>Alkallmazott</beosztas>
+        <telefonszam>06708866104</telefonszam>
+        <email>jackpot61.steam@gmail.com</email>
+    </nevjegykartya>
+    <nevjegykartya>
+        <nev>Alexei Navalnji</nev>
+        <ceg>
+            <nev>CASH REGISTER NOISES INC.</nev>
+            <cim>
+                <iranyitoszam>4025</iranyitoszam>
+                <varos>Debrecen</varos>
+                <utca>Kossuth</utca>
+                <hazszam>21</hazszam>
+            </cim>
+            <telefonszam>06702264567</telefonszam>
+            <weblap>https://www.ceginformacio.hu/cr9316332083_EN</weblap>
+        </ceg>
+        <beosztas>Ügyvezető Igazgató</beosztas>
+        <telefonszam>06702264567</telefonszam>
+        <email>info@infinity.com</email>
+    </nevjegykartya>
+</nevjegykartyak>
