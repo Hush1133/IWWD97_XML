@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE szemelyek SYSTEM "szemelyekCWM4U0.dtd">
+
+        <szemelyek xsi:noNamespaceSchemaLocation="szemelyekIWWD97.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+    <szemely id="A01">
+        <nev>Kádár Konrád</nev>
+        <kor>21</kor>
+        <varos>Debrecen</varos>
+    </szemely>
+
+    <szemely id="A02">
+        <nev>Baranyai Gábor</nev>
+        <kor>12</kor>
+        <varos>Duránda</varos>
+    </szemely>
+
+    <szemely id="A03">
+        <nev>Schmidt Bence</nev>
+        <kor>20</kor>
+        <varos>Csenyéte</varos>
+    </szemely>
+
+</szemelyek>
