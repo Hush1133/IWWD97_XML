@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+    <user id="1">
+        <firstname>Sztojka</firstname>
+        <lastname>PedaŁ</lastname>
+        <profession>Mesterlövész</profession>
+    </user>
+
+    <user id="2">
+        <firstname>Kádár</firstname>
+        <lastname>Konrád</lastname>
+        <profession>autószerelő</profession>
+    </user>
+
+    <user id="3">
+        <firstname>Horthy</firstname>
+        <lastname>Miklós</lastname>
+        <profession>kormányzó</profession>
+    </user>
+</users>
