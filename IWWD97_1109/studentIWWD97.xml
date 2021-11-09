@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+    <student rollno = "393">
+        <firstname>Kádár</firstname>
+        <lastname>Konrád</lastname>
+        <nickname>KDY</nickname>
+        <marks>99</marks>
+    </student>
+
+    <student rollno = "493">
+        <firstname>Kövér</firstname>
+        <lastname>István</lastname>
+        <nickname>Beyond</nickname>
+        <marks>60</marks>
+    </student>
+
+    <student rollno = "593">
+        <firstname>Vaszilij</firstname>
+        <lastname>Huhrcsov</lastname>
+        <nickname>Hurka</nickname>
+        <marks>75</marks>
+    </student>
+</class>
