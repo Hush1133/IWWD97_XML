@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<napok>
+<hétfő>
+    <ora id="GEMAK131-B" típus="ELmélet">
+    <targy>Valószinűség-számítás és matematikai statisztika</targy>
+    <idopont nap="hétfő" tol="8" ig="10"/>
+    <helyszin>218.terem</helyszin>
+    <oktato>Dr. Fegyverneki Sándor</oktato>
+    <szak>Matematika</szak>
+    </ora>
+    <ora id="GEIAL333-B" típus="ELmélet">
+    <targy>Web-es alkalmazások</targy>
+    <idopont nap="hétfő" tol="10" ig="12"/>
+    <helyszin>info ep. 101.terem</helyszin>
+    <oktato>Dr. Krizsán Zoltán</oktato>
+    <szak>Informatika</szak>
+    </ora>
+    <ora id="GEIAL331-B" típus="ELmélet">
+    <targy>Web technológiák 1</targy>
+    <idopont nap="hétfő" tol="12" ig="14"/>
+    <helyszin>305.terem</helyszin>
+    <oktato>Agárdi Anita</oktato>
+    <szak>Informatika</szak>
+    </ora>
+    <ora id="GEIAK130-B" típus="ELmélet">
+    <targy>Mesterséges intelligencia alapok</targy>
+    <idopont nap="hétfő" tol="14" ig="17"/>
+    <helyszin>XXXII.előadó</helyszin>
+    <oktato>Dr. Dudás László</oktato>
+    <szak>Informatika</szak>
+    </ora>
+    <ora id="GEIAL331-B" típus="Gyakorlat">
+    <targy>Web technológiák 1</targy>
+    <idopont nap="hétfő" tol="17" ig="19"/>
+    <helyszin>info ep. 101.terem</helyszin>
+    <oktato>Agárdi Anita</oktato>
+    <szak>Informatika</szak>
+    </ora>
+</hétfő>
+<kedd>
+    <ora id="GEIAL333-B" típus="Gyakorlat">
+    <targy>Web-es alkalmazások</targy>
+    <idopont nap="hétfő" tol="10" ig="12"/>
+    <helyszin>info ep. 101.terem</helyszin>
+    <oktato>Dr. Krizsán Zoltán</oktato>
+    <szak>Informatika</szak>
+    </ora>
+    <ora id="GEIAL332-B" típus="ELmélet">
+    <targy>Adatkezelés XML-ben</targy>
+    <idopont nap="hétfő" tol="12" ig="14"/>
+    <helyszin>I.előadó</helyszin>
+    <oktato>Bednarik László</oktato>
+    <szak>Informatika</szak>
+    </ora>
+    <ora id="GEIAL332-B" típus="Gyakorlat">
+    <targy>Adatkezelés XML-ben</targy>
+    <idopont nap="hétfő" tol="14" ig="16"/>
+    <helyszin>info ep. 103.terem</helyszin>
+    <oktato>Bednarik László</oktato>
+    <szak>Informatika</szak>
+    </ora>
+    <ora id="GEIAK130-B" típus="Gyakorlat">
+    <targy>Mesterséges intelligencia alapok</targy>
+    <idopont nap="hétfő" tol="18" ig="19"/>
+    <helyszin>info ep. 15.terem</helyszin>
+    <oktato>Dr. Dudás László</oktato>
+    <szak>Informatika</szak>
+    </ora>
+</kedd>
+<szerda>
+    <ora id="GEIAL31H-B" típus="Elmélet">
+    <targy>Szoftvertesztelés</targy>
+    <idopont nap="hétfő" tol="8" ig="10"/>
+    <helyszin>info ep. 103.terem</helyszin>
+    <oktato>Tompa Tamás</oktato>
+    <szak>Informatika</szak>
+    </ora>
+    <ora id="GEIAL31H-B" típus="Gyakorlat">
+    <targy>Szoftvertesztelés</targy>
+    <idopont nap="hétfő" tol="10" ig="12"/>
+    <helyszin>info ep. 103.terem</helyszin>
+    <oktato>Tompa Tamás</oktato>
+    <szak>Informatika</szak>
+    </ora>
+    <ora id="GEIAK120-B" típus="Elmélet">
+    <targy>Integrált vállalati rendszerek</targy>
+    <idopont nap="hétfő" tol="14" ig="16"/>
+    <helyszin>14.terem</helyszin>
+    <oktato>Dr. Dadvandipour Samad</oktato>
+    <szak>Informatika</szak>
+    </ora>
+    <ora id="GEIAK120-B" típus="Gyakorlat">
+    <targy>Integrált vállalati rendszerek</targy>
+    <idopont nap="hétfő" tol="16" ig="18"/>
+    <helyszin>info ep. 15.terem</helyszin>
+    <oktato>Dr. Kulcsárné Dr. Forrai Mónika</oktato>
+    <szak>Informatika</szak>
+    </ora>
+</szerda>
+<csütörtök>
+    <ora id="GEMAK131-B" típus="Gyakorlat">
+    <targy>Valószinűség-számítás és matematikai statisztika</targy>
+    <idopont nap="hétfő" tol="10" ig="12"/>
+    <helyszin>309.terem</helyszin>
+    <oktato>Dr. Glavosits Tamás</oktato>
+    <szak>Matematika</szak>
+    </ora>
+</csütörtök>
+</napok>

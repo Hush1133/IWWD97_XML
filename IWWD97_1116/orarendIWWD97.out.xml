@@ -1,0 +1,52 @@
+<html>
+    <body>
+        <h2>&Oacute;rarend</h2>
+        <table border="1">
+            <tr bgcolor="#9acd32">
+                <th style="text-align:left">id</th><th style="text-align:left">t&iacute;pus</th><th style="text-align:left">targy</th><th style="text-align:left">helyszin</th><th style="text-align:left">oktato</th><th style="text-align:left">szak</th><th style="text-align:left">nap</th><th style="text-align:left">tol</th><th style="text-align:left">ig</th>
+            </tr>
+            <tr>
+                <td>GEMAK131-B</td><td>ELm&eacute;let</td><td>Val&oacute;szinűs&eacute;g-sz&aacute;m&iacute;t&aacute;s &eacute;s matematikai statisztika</td><td>218.terem</td><td>Dr. Fegyverneki S&aacute;ndor</td><td>Matematika</td><td>h&eacute;tfő</td><td>8</td><td>10</td>
+            </tr>
+            <tr>
+                <td>GEIAL333-B</td><td>ELm&eacute;let</td><td>Web-es alkalmaz&aacute;sok</td><td>info ep. 101.terem</td><td>Dr. Krizs&aacute;n Zolt&aacute;n</td><td>Informatika</td><td>h&eacute;tfő</td><td>10</td><td>12</td>
+            </tr>
+            <tr>
+                <td>GEIAL331-B</td><td>ELm&eacute;let</td><td>Web technol&oacute;gi&aacute;k 1</td><td>305.terem</td><td>Ag&aacute;rdi Anita</td><td>Informatika</td><td>h&eacute;tfő</td><td>12</td><td>14</td>
+            </tr>
+            <tr>
+                <td>GEIAK130-B</td><td>ELm&eacute;let</td><td>Mesters&eacute;ges intelligencia alapok</td><td>XXXII.előad&oacute;</td><td>Dr. Dud&aacute;s L&aacute;szl&oacute;</td><td>Informatika</td><td>h&eacute;tfő</td><td>14</td><td>17</td>
+            </tr>
+            <tr>
+                <td>GEIAL331-B</td><td>Gyakorlat</td><td>Web technol&oacute;gi&aacute;k 1</td><td>info ep. 101.terem</td><td>Ag&aacute;rdi Anita</td><td>Informatika</td><td>h&eacute;tfő</td><td>17</td><td>19</td>
+            </tr>
+            <tr>
+                <td>GEIAL333-B</td><td>Gyakorlat</td><td>Web-es alkalmaz&aacute;sok</td><td>info ep. 101.terem</td><td>Dr. Krizs&aacute;n Zolt&aacute;n</td><td>Informatika</td><td>h&eacute;tfő</td><td>10</td><td>12</td>
+            </tr>
+            <tr>
+                <td>GEIAL332-B</td><td>ELm&eacute;let</td><td>Adatkezel&eacute;s XML-ben</td><td>I.előad&oacute;</td><td>Bednarik L&aacute;szl&oacute;</td><td>Informatika</td><td>h&eacute;tfő</td><td>12</td><td>14</td>
+            </tr>
+            <tr>
+                <td>GEIAL332-B</td><td>Gyakorlat</td><td>Adatkezel&eacute;s XML-ben</td><td>info ep. 103.terem</td><td>Bednarik L&aacute;szl&oacute;</td><td>Informatika</td><td>h&eacute;tfő</td><td>14</td><td>16</td>
+            </tr>
+            <tr>
+                <td>GEIAK130-B</td><td>Gyakorlat</td><td>Mesters&eacute;ges intelligencia alapok</td><td>info ep. 15.terem</td><td>Dr. Dud&aacute;s L&aacute;szl&oacute;</td><td>Informatika</td><td>h&eacute;tfő</td><td>18</td><td>19</td>
+            </tr>
+            <tr>
+                <td>GEIAL31H-B</td><td>Elm&eacute;let</td><td>Szoftvertesztel&eacute;s</td><td>info ep. 103.terem</td><td>Tompa Tam&aacute;s</td><td>Informatika</td><td>h&eacute;tfő</td><td>8</td><td>10</td>
+            </tr>
+            <tr>
+                <td>GEIAL31H-B</td><td>Gyakorlat</td><td>Szoftvertesztel&eacute;s</td><td>info ep. 103.terem</td><td>Tompa Tam&aacute;s</td><td>Informatika</td><td>h&eacute;tfő</td><td>10</td><td>12</td>
+            </tr>
+            <tr>
+                <td>GEIAK120-B</td><td>Elm&eacute;let</td><td>Integr&aacute;lt v&aacute;llalati rendszerek</td><td>14.terem</td><td>Dr. Dadvandipour Samad</td><td>Informatika</td><td>h&eacute;tfő</td><td>14</td><td>16</td>
+            </tr>
+            <tr>
+                <td>GEIAK120-B</td><td>Gyakorlat</td><td>Integr&aacute;lt v&aacute;llalati rendszerek</td><td>info ep. 15.terem</td><td>Dr. Kulcs&aacute;rn&eacute; Dr. Forrai M&oacute;nika</td><td>Informatika</td><td>h&eacute;tfő</td><td>16</td><td>18</td>
+            </tr>
+            <tr>
+                <td>GEMAK131-B</td><td>Gyakorlat</td><td>Val&oacute;szinűs&eacute;g-sz&aacute;m&iacute;t&aacute;s &eacute;s matematikai statisztika</td><td>309.terem</td><td>Dr. Glavosits Tam&aacute;s</td><td>Matematika</td><td>h&eacute;tfő</td><td>10</td><td>12</td>
+            </tr>
+        </table>
+    </body>
+</html>
