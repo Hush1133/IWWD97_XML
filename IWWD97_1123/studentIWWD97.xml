@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="studentIWWD97.xsl" type="text/xsl"?>
+
+<osztaly>
+    <alkalmazott id = "001">
+        <keresztnev>Kádár</keresztnev>
+        <vezeteknev>Konrád</vezeteknev>
+        <becenev>KDY</becenev>
+        <fizetes>60000</fizetes>
+    </alkalmazott>
+    <alkalmazott id = "024">
+        <keresztnev>Gergely</keresztnev>
+        <vezeteknev>Keszeg</vezeteknev>
+        <becenev>Keszi</becenev>
+        <fizetes>45000</fizetes>
+    </alkalmazott>
+    <alkalmazott id = "001">
+        <keresztnev>Nagy</keresztnev>
+        <vezeteknev>Béla</vezeteknev>
+        <becenev>Veréb</becenev>
+        <fizetes>30000</fizetes>
+    </alkalmazott>
+</osztaly>
