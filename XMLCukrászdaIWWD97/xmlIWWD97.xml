@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaIWWD97.xsd">
+    <Customers>
+        <Customer CustomerID="1">
+            <Servedby>Minta Cukrász</Servedby>
+            <PaidAmount>2000</PaidAmount>
+            <Name>Minta Vásárló</Name>
+        </Customer>
+    </Customers>
+    <Buys>
+        <Buy CustomerID="1" ProductID="1">
+            <BoughtProducts>Édes Sütemény</BoughtProducts>
+        </Buy>
+    </Buys>
+    <Sweetshops TimeOpen="1">
+        <Sweetshop>
+            <ShopName>Cukrászda</ShopName>
+            <ShopAddress>
+                <City>Debrecen</City>
+                <StreetSTnumber>Mátyás Király utca 4</StreetSTnumber>
+            </ShopAddress>
+        </Sweetshop>
+    </Sweetshops>
+    <PastryCooks>
+        <PastryCook IDnumber="557738EE">
+            <Post>VezetőCukrász</Post>
+            <Name>Minta Cukrász</Name>
+            <HomeAddress>
+                <City>Debrecen</City>
+                <Street>Leningen utca</Street>
+                <StreetNumber>45</StreetNumber>
+            </HomeAddress>
+        </PastryCook>
+    </PastryCooks>
+    <Qualifications>
+        <Qualification ID="2">
+            <EducationLevel>Szakmunkás</EducationLevel>
+        </Qualification>
+    </Qualifications>
+    <Equipments>
+        <Equipment ID="1">
+            <State>Használatra Kész</State>
+            <EquipmentName>Kés</EquipmentName>
+        </Equipment>
+    </Equipments>
+</root>

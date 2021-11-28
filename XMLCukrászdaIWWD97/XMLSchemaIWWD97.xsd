@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="root" type="rootType"/>
+    <xs:complexType name="CustomerType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="Servedby"/>
+            <xs:element type="xs:string" name="PaidAmount"/>
+            <xs:element type="xs:string" name="Name"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="CustomerID"/>
+    </xs:complexType>
+    <xs:complexType name="CustomersType">
+        <xs:sequence>
+            <xs:element type="CustomerType" name="Customer"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="BuyType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="BoughtProducts"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="CustomerID"/>
+        <xs:attribute type="xs:string" name="ProductID"/>
+    </xs:complexType>
+    <xs:complexType name="BuysType">
+        <xs:sequence>
+            <xs:element type="BuyType" name="Buy"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ShopAddressType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="City"/>
+            <xs:element type="xs:string" name="StreetSTnumber"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="SweetshopType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="ShopName"/>
+            <xs:element type="ShopAddressType" name="ShopAddress"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="SweetshopsType">
+        <xs:sequence>
+            <xs:element type="SweetshopType" name="Sweetshop"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="TimeOpen"/>
+    </xs:complexType>
+    <xs:complexType name="HomeAddressType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="City"/>
+            <xs:element type="xs:string" name="Street"/>
+            <xs:element type="xs:string" name="StreetNumber"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="PastryCookType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="Post"/>
+            <xs:element type="xs:string" name="Name"/>
+            <xs:element type="HomeAddressType" name="HomeAddress"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="IDnumber"/>
+    </xs:complexType>
+    <xs:complexType name="PastryCooksType">
+        <xs:sequence>
+            <xs:element type="PastryCookType" name="PastryCook"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="QualificationType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="EducationLevel"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="ID"/>
+    </xs:complexType>
+    <xs:complexType name="QualificationsType">
+        <xs:sequence>
+            <xs:element type="QualificationType" name="Qualification"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="EquipmentType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="State"/>
+            <xs:element type="xs:string" name="EquipmentName"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="ID"/>
+    </xs:complexType>
+    <xs:complexType name="EquipmentsType">
+        <xs:sequence>
+            <xs:element type="EquipmentType" name="Equipment"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="rootType">
+        <xs:sequence>
+            <xs:element type="CustomersType" name="Customers"/>
+            <xs:element type="BuysType" name="Buys"/>
+            <xs:element type="SweetshopsType" name="Sweetshops"/>
+            <xs:element type="PastryCooksType" name="PastryCooks"/>
+            <xs:element type="QualificationsType" name="Qualifications"/>
+            <xs:element type="EquipmentsType" name="Equipments"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
