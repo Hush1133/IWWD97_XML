@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaIWWD97.xsd">
+    <Customers>
+        <Customer CustomerID="1">
+            <Servedby>Minta Cukrász</Servedby>
+            <PaidAmount>3000</PaidAmount>
+            <Name>Minta Vásárló</Name>
+        </Customer>
+    </Customers>
+    <Products>
+        <Product ProductID ="1" PastryCookKey2 ="1">
+            <ProductName>Torta</ProductName>
+            <PastriesButterscotch>TejKaramella</PastriesButterscotch>
+            <Timetobake>2</Timetobake>
+        </Product>
+    </Products>
+    <Buys>
+        <Buy CustomerID="1" ProductID="1">
+            <BoughtProducts>Édes Sütemény</BoughtProducts>
+        </Buy>
+    </Buys>
+    <Sweetshops>
+        <Sweetshop TimeOpen="1">
+            <ShopName>Cukrászda</ShopName>
+            <ShopAddress>
+                <City>Debrecen</City>
+                <StreetSTnumber>Mátyás Király utca 4</StreetSTnumber>
+            </ShopAddress>
+        </Sweetshop>
+    </Sweetshops>
+    <PastryCooks>
+        <PastryCook IDnumber="557738EE" SweetshopID="1">
+            <Post>VezetőCukrász</Post>
+            <Name>Minta Cukrász</Name>
+            <HomeAddress>
+                <City>Debrecen</City>
+                <Street>Leningen utca</Street>
+                <StreetNumber>45</StreetNumber>
+            </HomeAddress>
+        </PastryCook>
+    </PastryCooks>
+    <Qualifications>
+        <Qualification ID="2">
+            <EducationLevel>Szakmunkás</EducationLevel>
+        </Qualification>
+    </Qualifications>
+    <Equipments>
+        <Equipment ID="1" PastryCookID="1">
+            <State>Használatra Kész</State>
+            <EquipmentName>Kés</EquipmentName>
+        </Equipment>
+    </Equipments>
+</root>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="root">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Customers">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Customer" maxOccurs="100">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Servedby" type="xs:string"/>
+                                    <xs:element name="PaidAmount" type="Fizetett"/>
+                                    <xs:element name="Name" type="xs:string"/>
+                                </xs:sequence>
+                                <xs:attribute name="CustomerID" type="xs:string"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Products">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Product">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="ProductName" type="xs:string"/>
+                                    <xs:element name="PastriesButterscotch" type="xs:string"/>
+                                    <xs:element name="Timetobake" type="xs:int"/>
+                                </xs:sequence>
+                                <xs:attribute name="ProductID" type="xs:int"/>
+                                <xs:attribute name="PastryCookKey2" type="xs:int"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Buys">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Buy" maxOccurs="10">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="BoughtProducts" type="xs:string"/>
+                                </xs:sequence>
+                                <xs:attribute name="CustomerID" type="xs:int"/>
+                                <xs:attribute name="ProductID" type="xs:int"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Sweetshops">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Sweetshop" maxOccurs="1">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="ShopName" type="xs:string"/>
+                                    <xs:element name="ShopAddress">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="City" type="xs:string"/>
+                                                <xs:element name="StreetSTnumber" type="Cegcim"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="TimeOpen" type="xs:int"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="PastryCooks">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="PastryCook" maxOccurs="5">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Post" type="xs:string"/>
+                                    <xs:element name="Name" type="xs:string"/>
+                                    <xs:element name="HomeAddress">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="City" type="xs:string"/>
+                                                <xs:element name="Street" type="xs:string"/>
+                                                <xs:element name="StreetNumber" type="xs:int"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="IDnumber" type="szemig"/>
+                                <xs:attribute name="SweetshopID" type="xs:string"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Qualifications">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Qualification" maxOccurs="1">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="EducationLevel" type="xs:string"/>
+                                </xs:sequence>
+                                <xs:attribute name="ID" type="xs:int"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Equipments">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Equipment" maxOccurs="10">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="State" type="xs:string"/>
+                                    <xs:element name="EquipmentName" type="xs:string"/>
+                                </xs:sequence>
+                                <xs:attribute name="ID" type="xs:int"/>
+                                <xs:attribute name="PastryCookID" type="xs:int"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:key name="CustomerKey">
+        <xs:selector xpath="Customer"></xs:selector>
+        <xs:field xpath="@CustomerID"></xs:field>
+    </xs:key>
+    <xs:key name="ProductKey">
+        <xs:selector xpath="Product"></xs:selector>
+        <xs:field xpath="@ProductID"></xs:field>
+    </xs:key>
+    <xs:key name="SweetshopKey">
+        <xs:selector xpath="Sweetshop"></xs:selector>
+        <xs:field xpath="@TimeOpen"></xs:field>
+    </xs:key>
+    <xs:key name="PastryCookKey">
+        <xs:selector xpath="PastryCook"></xs:selector>
+        <xs:field xpath="@IDnumber"></xs:field>
+    </xs:key>
+    <xs:key name="QualificationKey">
+        <xs:selector xpath="Qualification"></xs:selector>
+        <xs:field xpath="@ID"></xs:field>
+    </xs:key>
+    <xs:key name="EquipmentKey">
+        <xs:selector xpath="Equipment"></xs:selector>
+        <xs:field xpath="@ID"></xs:field>
+    </xs:key>
+    <xs:keyref name="EquipmentandPastryCook" refer="PastryCookKey">
+        <xs:selector xpath="Equipment"></xs:selector>
+        <xs:field xpath="@ID"></xs:field>
+    </xs:keyref>
+    <xs:keyref name="ProductandPastryCook" refer="PastryCookKey">
+        <xs:selector xpath="Product"></xs:selector>
+        <xs:field xpath="@PastryCookKey2"></xs:field>
+    </xs:keyref>
+    <xs:keyref name="ProductandBuy" refer="ProductKey">
+        <xs:selector xpath="Buy"></xs:selector>
+        <xs:field xpath="@ProductID"></xs:field>
+    </xs:keyref>
+    <xs:keyref name="BuyandCustomer" refer="CustomerKey">
+        <xs:selector xpath="Buy"></xs:selector>
+        <xs:field xpath="CustomerID"></xs:field>
+    </xs:keyref>
+    <xs:keyref name="SweetshoptoPastryCook" refer="SweetshopKey">
+        <xs:selector xpath="Sweetshop"></xs:selector>
+        <xs:field xpath="SweetshopID"></xs:field>
+    </xs:keyref>
+</xs:element>
+    <xs:simpleType name="Fizetett">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="8000"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Cegcim">
+        <xs:restriction base="xs:string">
+            <xs:minInclusive value="5"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="szemig">
+        <xs:restriction base="xs:string">
+        <xs:pattern value="[0-9]{6}[A-Z]{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
