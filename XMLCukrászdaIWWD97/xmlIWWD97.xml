@@ -3,17 +3,24 @@
     <Customers>
         <Customer CustomerID="1">
             <Servedby>Minta Cukrász</Servedby>
-            <PaidAmount>2000</PaidAmount>
+            <PaidAmount>3000</PaidAmount>
             <Name>Minta Vásárló</Name>
         </Customer>
     </Customers>
+    <Products>
+        <Product ProductID ="1" PastryCookKey2 ="1">
+            <ProductName>Torta</ProductName>
+            <PastriesButterscotch>TejKaramella</PastriesButterscotch>
+            <Timetobake>2</Timetobake>
+        </Product>
+    </Products>
     <Buys>
         <Buy CustomerID="1" ProductID="1">
             <BoughtProducts>Édes Sütemény</BoughtProducts>
         </Buy>
     </Buys>
-    <Sweetshops TimeOpen="1">
-        <Sweetshop>
+    <Sweetshops>
+        <Sweetshop TimeOpen="1">
             <ShopName>Cukrászda</ShopName>
             <ShopAddress>
                 <City>Debrecen</City>
@@ -22,7 +29,7 @@
         </Sweetshop>
     </Sweetshops>
     <PastryCooks>
-        <PastryCook IDnumber="557738EE">
+        <PastryCook IDnumber="557738EE" SweetshopID="1">
             <Post>VezetőCukrász</Post>
             <Name>Minta Cukrász</Name>
             <HomeAddress>
@@ -38,7 +45,7 @@
         </Qualification>
     </Qualifications>
     <Equipments>
-        <Equipment ID="1">
+        <Equipment ID="1" PastryCookID="1">
             <State>Használatra Kész</State>
             <EquipmentName>Kés</EquipmentName>
         </Equipment>
