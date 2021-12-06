@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+
+
+<body>
+<h1>JSON-JavaScript</h1>
+<div id="content"></div>
+</body>
+<script>
+    var text =
+        '{"book": {"element": [' +
+        '{"author": "Nyekne Dr. Gaizler Judit",' +
+        '"language": "Java 2 I-II Utikalauz progarmozoknak 5.0"},' +
+        '{"author": "Kovacs Laszlo",' +
+        '"language": "Adatkezeles XML környezetben"}]}}';
+
+    var obj = JSON.parse(text);
+    document.getElementById("content").innerHTML =
+        "Language: " + obj.book.element[0].language +
+        "<br/>Author: " + obj.book.element[0].author +
+        "<br/>Language: " + obj.book.element[1].language +
+        "<br/>Author: " + obj.book.element[1].author;
+</script>
+
+</html>
