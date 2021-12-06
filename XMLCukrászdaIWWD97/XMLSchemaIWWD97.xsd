@@ -22,7 +22,7 @@
             <xs:element name="Products">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="Product">
+                        <xs:element name="Product" maxOccurs="unbounded">
                             <xs:complexType>
                                 <xs:sequence>
                                     <xs:element name="ProductName" type="xs:string"/>
@@ -54,7 +54,7 @@
             <xs:element name="Sweetshops">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="Sweetshop" maxOccurs="1">
+                        <xs:element name="Sweetshop" maxOccurs="unbounded">
                             <xs:complexType>
                                 <xs:sequence>
                                     <xs:element name="ShopName" type="xs:string"/>
@@ -101,7 +101,7 @@
             <xs:element name="Qualifications">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="Qualification" maxOccurs="1">
+                        <xs:element name="Qualification" maxOccurs="2">
                             <xs:complexType>
                                 <xs:sequence>
                                     <xs:element name="EducationLevel" type="xs:string"/>
@@ -183,8 +183,7 @@
     </xs:simpleType>
     <xs:simpleType name="Cegcim">
         <xs:restriction base="xs:string">
-            <xs:minInclusive value="5"/>
-            <xs:maxInclusive value="100"/>
+            <xs:maxLength value="50"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="szemig">

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <Customers>
+        <Customer CustomerID="1">
+            <Servedby>Minta Cukrász</Servedby>
+            <PaidAmount>3000</PaidAmount>
+            <Name>Minta Vásárló</Name>
+        </Customer>
+    </Customers>
+    <Products>
+        <Product ProductID ="1" PastryCookKey2 ="1">
+            <ProductName>Torta</ProductName>
+            <PastriesButterscotch>Butterscotch</PastriesButterscotch>
+            <Timetobake>2</Timetobake>
+        </Product>
+        <Product ProductID ="11" PastryCookKey2 ="2">
+            <ProductName>Sajtos Tallér</ProductName>
+            <PastriesButterscotch>Pastry</PastriesButterscotch>
+            <Timetobake>2</Timetobake>
+        </Product>
+    </Products>
+    <Buys>
+        <Buy CustomerID="1" ProductID="1">
+            <BoughtProducts>Édes Sütemény</BoughtProducts>
+        </Buy>
+    </Buys>
+    <Sweetshops>
+        <Sweetshop TimeOpen="1">
+            <ShopName>Cukrászda</ShopName>
+            <ShopAddress>
+                <City>Debrecen</City>
+                <StreetSTnumber>Mátyás Király utca 4</StreetSTnumber>
+            </ShopAddress>
+        </Sweetshop>
+        <Sweetshop TimeOpen="2">
+            <ShopName>Cukrászda2</ShopName>
+            <ShopAddress>
+                <City>Debrecen</City>
+                <StreetSTnumber>Sámsoni út 60</StreetSTnumber>
+            </ShopAddress>
+        </Sweetshop>
+    </Sweetshops>
+    <PastryCooks>
+        <PastryCook IDnumber="557738EE" SweetshopID="1">
+            <Post>VezetőCukrász</Post>
+            <Name>Minta Cukrász</Name>
+            <HomeAddress>
+                <City>Debrecen</City>
+                <Street>Leningen utca</Street>
+                <StreetNumber>45</StreetNumber>
+            </HomeAddress>
+        </PastryCook>
+        <PastryCook IDnumber="527638ZE" SweetshopID="1">
+            <Post>VezetőCukrász</Post>
+            <Name>Minta Cukrász</Name>
+            <HomeAddress>
+                <City>Debrecen</City>
+                <Street>Alma utca</Street>
+                <StreetNumber>34</StreetNumber>
+            </HomeAddress>
+        </PastryCook>
+    </PastryCooks>
+    <Qualifications>
+        <Qualification ID="2">
+            <EducationLevel>Szakmunkás</EducationLevel>
+        </Qualification>
+        <Qualification ID="1">
+            <EducationLevel>Érettségi</EducationLevel>
+        </Qualification>
+    </Qualifications>
+    <Equipments>
+        <Equipment ID="1" PastryCookID="1">
+            <State>Használatra Kész</State>
+            <EquipmentName>Kés</EquipmentName>
+        </Equipment>
+        <Equipment ID="2" PastryCookID="1">
+            <State>Használatra Kész</State>
+            <EquipmentName>Tepsi</EquipmentName>
+        </Equipment>
+    </Equipments>
+</root>

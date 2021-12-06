@@ -10,8 +10,13 @@
     <Products>
         <Product ProductID ="1" PastryCookKey2 ="1">
             <ProductName>Torta</ProductName>
-            <PastriesButterscotch>TejKaramella</PastriesButterscotch>
+            <PastriesButterscotch>Butterscotch</PastriesButterscotch>
             <Timetobake>2</Timetobake>
+        </Product>
+        <Product ProductID ="11" PastryCookKey2 ="2">
+            <ProductName>Sajtos Tallér</ProductName>
+            <PastriesButterscotch>Pastry</PastriesButterscotch>
+            <Timetobake>1</Timetobake>
         </Product>
     </Products>
     <Buys>
@@ -27,6 +32,13 @@
                 <StreetSTnumber>Mátyás Király utca 4</StreetSTnumber>
             </ShopAddress>
         </Sweetshop>
+        <Sweetshop TimeOpen="2">
+            <ShopName>Cukrászda2</ShopName>
+            <ShopAddress>
+                <City>Debrecen</City>
+                <StreetSTnumber>Sámsoni út 60</StreetSTnumber>
+            </ShopAddress>
+        </Sweetshop>
     </Sweetshops>
     <PastryCooks>
         <PastryCook IDnumber="557738EE" SweetshopID="1">
@@ -38,16 +50,32 @@
                 <StreetNumber>45</StreetNumber>
             </HomeAddress>
         </PastryCook>
+        <PastryCook IDnumber="527638ZE" SweetshopID="1">
+            <Post>VezetőCukrász</Post>
+            <Name>Minta Cukrász</Name>
+            <HomeAddress>
+                <City>Debrecen</City>
+                <Street>Alma utca</Street>
+                <StreetNumber>34</StreetNumber>
+            </HomeAddress>
+        </PastryCook>
     </PastryCooks>
     <Qualifications>
         <Qualification ID="2">
             <EducationLevel>Szakmunkás</EducationLevel>
+        </Qualification>
+        <Qualification ID="1">
+            <EducationLevel>Érettségi</EducationLevel>
         </Qualification>
     </Qualifications>
     <Equipments>
         <Equipment ID="1" PastryCookID="1">
             <State>Használatra Kész</State>
             <EquipmentName>Kés</EquipmentName>
+        </Equipment>
+        <Equipment ID="2" PastryCookID="1">
+            <State>Használatra Kész</State>
+            <EquipmentName>Tepsi</EquipmentName>
         </Equipment>
     </Equipments>
 </root>
